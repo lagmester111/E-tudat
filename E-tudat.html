@@ -1,0 +1,53 @@
+<html lang="hu">
+
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="E-tudat.css">
+
+    <title>E-tudat</title>
+</head>
+
+<body>
+    <h1>E-tudat</h1>
+    <table>
+        <thead>
+            <tr>
+                <th><a href="biztonsag.html" target="_self">Digitális biztonság</a></th>            
+                <th><a href="online.html" target="_self">Biztonságos online fizetés</a></th>
+                <th><a href="jelszo.html" target="_self">Jelszavak biztonságos használata és tárolása</a></th>
+                
+                
+                </tfoot>
+    </table>
+    <script>
+        const images = [
+            'haker.jpg',
+            'anonym.jpg',
+            'staemcommunity.png'
+        ];
+        let currentIndex = 0;
+
+        function changeBackgroundImage() {
+            document.body.style.backgroundImage = `url(${images[currentIndex]})`;
+            currentIndex = (currentIndex + 1) % images.length;
+        }
+
+        setInterval(changeBackgroundImage, 10000);
+        changeBackgroundImage(); 
+    </script>
+    <br>
+
+    <div>
+        <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+        <h2>Social media elérhetőségek</h2>
+        <br>
+        <a href="https://www.facebook.com" target="_blank">Facebook</a>
+        <a href="https://www.instagram.com" target="_blank">Instagram</a>
+        <a href="https://www.twitter.com" target="_blank">Twitter</a>
+    </div>
+
+
+
+</body>
+
+</html>
